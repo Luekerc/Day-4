@@ -1,0 +1,48 @@
+/* Default CSS: CSS for small devices <768px */
+.static {
+  position: static;
+  width: 10em;
+  margin-left: 1em;
+  margin-top: 1em;
+  background-color: grey;
+  font-size: 30px;
+}
+.relative1 {
+  position: relative;
+  background-color: grey;
+  font-size: 30px;
+  width: 50%;
+}
+.relative2 {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  background-color: white;
+  width: 500px;
+  background-color: grey;
+  font-size: 30px;
+}
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  background-color: green;
+}
+.giant{
+	font-size: 10em;
+}
+.relative {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background-color: green;
+}
+.absolute {
+  position: absolute;
+  top: 120px;
+  right: 0;
+  width: 300px;
+  height: 200px;
+  background-color: yellow;
+}
